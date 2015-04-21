@@ -17,7 +17,7 @@
 //------------------------------------------------
 Titanium.UI.setBackgroundColor('#371515');
 
-var layout = Ti.UI.createView({layout: 'vertical'});
+var layout = Ti.UI.createView({layout: 'vertical'});////Just need the layout specs (switching from phone to tablet)
 
 //------------------------------------
 // Tab Group & Tabs
@@ -131,7 +131,7 @@ var lblBio3 = Titanium.UI.createLabel({
 	width:'auto'
 });		
 
-var pic2 = Titanium.UI.createImageView({
+var pic2 = Titanium.UI.createImageView({////Not sure that this is necessary
    image: "parker.jpg",
    height:200, 
    width:200, 
